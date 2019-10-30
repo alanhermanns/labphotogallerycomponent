@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 25% 25% 25% ;
+    grid-template-rows: auto ;
+    justify-content: end;
+}
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height: auto;
+    width: auto;
+    margin: 35px;
+    border-radius: 10%;
+}
+li :hover{
+    transition-duration: 2s;
+    background-color: red;
+    background-size: 400%;
+    border-radius: 10%;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
